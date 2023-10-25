@@ -3,7 +3,7 @@ import styles from "./About.module.scss";
 
 const About = () => {
   return (
-    <section className={styles.hero}>
+    <section id="about" className={styles.hero}>
       <h3>About</h3>
     </section>
   );

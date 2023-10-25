@@ -3,7 +3,7 @@ import styles from "./Team.module.scss";
 
 const Team = () => {
   return (
-    <section className={styles.team}>
+    <section id="team" className={styles.team}>
       <h3>Team</h3>
     </section>
   );

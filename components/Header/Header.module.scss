@@ -1,0 +1,23 @@
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    width: 90vw;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    li {
+      display: inline-block;
+      a {
+        cursor: pointer;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -16,7 +16,11 @@ const Projects = () => {
         translateX: 0,
       },
       {
-        translateX: "-300vw",
+        /**
+         * translateX offset is based on sections count.
+         * 4 -> -300vw, 3-> -200vw etc.
+         */
+        translateX: "-200vw",
         ease: "none",
         duration: 1,
         scrollTrigger: {
@@ -35,7 +39,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className={styles.scrollSectionWrapper}>
+    <section id="projects" className={styles.scrollSectionWrapper}>
       {/* The div below act just as a trigger. As the doc suggests, the trigger and 
       the animation should alway be two separated refs */}
       <div ref={triggerRef}>
@@ -48,9 +52,6 @@ const Projects = () => {
           </div>
           <div className={styles.scrollSection}>
             <h3>Section 3</h3>
-          </div>
-          <div className={styles.scrollSection}>
-            <h3>Section 4</h3>
           </div>
         </div>
       </div>
