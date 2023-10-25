@@ -4,7 +4,7 @@ import styles from "./Team.module.scss";
 const Team = () => {
   return (
     <section id="team" className={styles.team}>
-      <h3>Team</h3>
+      <h3>TEAM</h3>
     </section>
   );
 };

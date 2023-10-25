@@ -45,13 +45,13 @@ const Projects = () => {
       <div ref={triggerRef}>
         <div ref={sectionRef} className={styles.scrollSectionContainer}>
           <div className={styles.scrollSection}>
-            <h3>Section 1</h3>
+            <h3>PROJECT 1</h3>
           </div>
           <div className={styles.scrollSection}>
-            <h3>Section 2</h3>
+            <h3>PROJECT 2</h3>
           </div>
           <div className={styles.scrollSection}>
-            <h3>Section 3</h3>
+            <h3>PROJECT 3</h3>
           </div>
         </div>
       </div>
